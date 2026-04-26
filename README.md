@@ -37,16 +37,16 @@ brain-progression
 
 ## Demo
 
-### brain-games
+### brain-even
 [![asciicast](https://asciinema.org/a/PH9URqLjbhAfxx3t.svg)](https://asciinema.org/a/PH9URqLjbhAfxx3t)
 
-### brain-even
+### brain-calc
 [![asciicast](https://asciinema.org/a/uXcpyLqDaLlJ2Jdc.svg)](https://asciinema.org/a/uXcpyLqDaLlJ2Jdc)
 
-### brain-calc
+### brain-gcd
 [![asciicast](https://asciinema.org/a/2ryEMISQkSJOOI0j.svg)](https://asciinema.org/a/2ryEMISQkSJOOI0j)
 
-### brain-gcd
+### brain-progression
 [![asciicast](https://asciinema.org/a/hlfvv5CEube4xlGx.svg)](https://asciinema.org/a/hlfvv5CEube4xlGx)
 
 ### brain-prime
