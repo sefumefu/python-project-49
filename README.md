@@ -29,6 +29,7 @@ brain-progression
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sefumefu_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sefumefu_python-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sefumefu_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sefumefu_python-project-49)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sefumefu_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=sefumefu_python-project-49)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sefumefu_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=sefumefu_python-project-49)
 
 ## Hexlet tests and linter status
 
