@@ -12,3 +12,5 @@ package-install:
 
 lint:
 	uv run ruff check brain_games
+
+.PHONY: install build package-install lint setup brain-games
