@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -13,5 +15,25 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.15.10",
+]
+
 [project.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.cli:brain_games_entry"
+brain-even = "brain_games.cli:brain_even_entry"
+brain-calc = "brain_games.cli:brain_calc_entry"
+brain-gcd = "brain_games.cli:brain_gcd_entry"
+brain-progression = "brain_games.cli:brain_progression_entry"
+brain-prime = "brain_games.cli:brain_prime_entry"
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint]
+preview = true
+select = ["E", "F", "I", "C90"]
