@@ -7,7 +7,7 @@ def welcome_user():
     print(f'Hello, {name}!')
     return name
 
-def brains_games_entry():
+def brain_games_entry():
     welcome_user()
 
 def brain_calc_entry():
