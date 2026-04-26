@@ -1,7 +1,7 @@
 import random
 
-
 rules = 'What is the result of the expression?'
+
 
 def generate_round():
     a = random.randint(1, 100)

@@ -1,4 +1,5 @@
 import prompt
+
 from brain_games.cli import welcome_user
 
 
@@ -16,7 +17,7 @@ def main(rules, generate_round):
         answer = prompt.string('Your answer: ')
 
         if answer != correct_answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")  # noqa: E501
             print(f"Let's try again, {name}!")
             return
 
